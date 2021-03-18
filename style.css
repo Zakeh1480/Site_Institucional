@@ -1,0 +1,53 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cabecalho{
+    background-color: #161b22;
+    width: 100%;
+    height: 55px;
+}
+
+.title{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.title_orange{
+    color: orange;
+    font-size: 19px;
+
+}
+
+.title_white{
+    color: white;
+    font-size: 19px;
+    
+}
+
+.list{
+    list-style: none;
+}
+
+.list li {
+    color: white;
+    display: inline;
+    margin-left: 17px;
+    font-size: larger;
+    font-size: 20px;
+}
+
+.container_list{
+    float: right;
+   
+}
+
+.header{
+    max-width: 1535px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 14px;
+
+}
