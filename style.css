@@ -7,23 +7,29 @@
 .cabecalho{
     background-color: #161b22;
     width: 100%;
-    height: 55px;
+    height: 80px;
+}
+
+.header{
+    max-width: 1535px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 .title{
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
 }
 
 .title_orange{
-    color: orange;
-    font-size: 19px;
-
+    color: rgb(255, 72, 0);
+    font-size: 25px;
 }
 
 .title_white{
     color: white;
-    font-size: 19px;
+    font-size: 25px;
     
 }
 
@@ -36,18 +42,119 @@
     display: inline;
     margin-left: 17px;
     font-size: larger;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.home_laranja{
+    color: rgb(255, 72, 0);
 }
 
 .container_list{
     float: right;
-   
 }
 
-.header{
+.apresentação{
+    background-size: cover;
+    background-image: url("team.png");
+    background-repeat: no-repeat;
+    min-height: 400px;;
+}
+
+.container_apresentação{
+    text-align: center;
+    padding-top: 132px;
+}
+
+.titulo_apresentação{
+    font-size:45px;
+    color: rgb(255, 72, 0);
+}
+
+.descrição_apresentação{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+.contato{
+    background-color: #161b22;
+    width: 100%;
+    height: 90px;
+}
+
+.informacao_contato{
     max-width: 1535px;
     width: 100%;
     margin: 0 auto;
-    padding: 14px;
+    padding: 30px;
+}
 
+.container_email{
+    float: right;
+}
+
+.inpt_email{
+    width: 217px;
+    height: 33px;
+    text-align: center;
+}
+
+.btn{
+    width: 65px;
+    height: 33px;
+    background-color: rgb(255, 72, 0);
+    color: black;
+}
+
+.btn:hover{
+    background-color:white;
+    transition:0.5s;
+}
+ .icones{
+     display: flex
+ }
+
+ .missao{
+     padding-left: 254px;
+     padding-top: 76px;
+ }
+ .valores{
+    padding-left: 254px;
+    padding-top: 76px;
+}
+.visão{
+    padding-left: 254px;
+    padding-top: 76px;
+}
+
+.center{
+    margin-left: 75px;
+}
+
+#img{
+    padding-left: 35px;
+}
+
+#img2{
+    padding-left: 25px;
+}
+
+.rodape{
+        background-color: rgb(255, 72, 0);
+        width: 100%;
+        height: 100px;
+        margin-top: 31px; 
+}
+
+.container_rodape{
+    max-width: 1535px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    padding-top: 43px;
+}
+
+.descrição_rodape{
+    color: white;
+    font-size: 17px;
 }
