@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gráfico - Chart JS</title>
+</head>
+  <body>
+
+    <div style="width: 50%; height: 100px;">
+      <canvas class="myChart"></canvas>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script>
+      var ctx = document.getElementsByClassName("myChart");
+
+      var chartGraph = new Chart(ctx, {
+        type: 'bar',
+        data:{
+          labels: ['Tilápia', 'Carpa'],
+          datasets: [{
+            label: "Quantidade de peixes",
+            data: [250, 300],
+            borderwidth: 1,
+            borderColor: 'white',
+            backgroundColor: 'blue'
+          }]
+        }
+      });
+    </script>
+    
+  </body>
+</html>
